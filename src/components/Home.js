@@ -1,7 +1,7 @@
 
 import hero from "../images/hero.png";
 import vector1 from "../images/Vector 1.png";
-import vector2 from "../images/Vector 2.png";
+
 const Home = () => {
   // className="border-b-4 border-secondary"
   return (

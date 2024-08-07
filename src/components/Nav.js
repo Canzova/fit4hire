@@ -20,7 +20,7 @@ const Nav = () => {
           Community
         </a>
         <a href="#" className="mx-6 hover:text-secondary">
-          Feedback
+          Reviews
         </a>
       </div>
 

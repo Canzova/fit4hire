@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         public: ['Public Sans', 'sans-serif'],
+        heading: ["Philosopher", 'sans-serif'],
       },
     },
   },
