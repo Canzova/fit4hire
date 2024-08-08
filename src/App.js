@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import Stats from "./components/Stats";
 import Courses from "./components/Courses";
 import Instructors from "./components/Instructors";
+import Reviews from "./components/Reviews";
+import Community from "./components/Community";
 function App() {
   return (
     <div className=" font-public">
@@ -11,6 +13,8 @@ function App() {
       <Stats/>
       <Courses/>
       <Instructors/>
+      <Reviews/>
+      <Community/>
     </div>
   );
 }

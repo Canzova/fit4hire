@@ -1,4 +1,4 @@
-import t1 from "../images/t2.png";
+import nihal from "../images/nihal.png";
 import vector1 from "../images/Vector 1.png";
 import vector2 from "../images/Vector 2.png";
 import { FaCode } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Instructors = () => {
       <div className="flex justify-between items-center mt-12">
         <div className="w-[40%] h-[100%]">
           <img
-            src={t1}
+            src={nihal}
             alt="Instructor"
             className="h-full w-full object-cover"
           />
@@ -45,7 +45,7 @@ const Instructors = () => {
             </span>{" "}
             Data Structures and Algorithms problems.
           </h1>
-          <div className="flex justify-start items-center gap-8 my-8">
+          <div className="flex justify-start items-center gap-8 mt-8">
             <div>
               <div className="bg-[#FFC27A] h-[3rem] w-[3rem] clipPath flex justify-center items-center cursor-pointer hover:bg-secondary">
                 <a href="https://codolio.com/profile/Canzova" target="_blank">

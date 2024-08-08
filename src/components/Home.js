@@ -1,4 +1,3 @@
-
 import hero from "../images/hero.png";
 import vector1 from "../images/Vector 1.png";
 
@@ -25,7 +24,9 @@ const Home = () => {
           Various versions have evolved over the years, sometimes by accident,
         </span>
         <div className="pt-2">
-          <button className="bg-secondary py-2 px-6 rounded-2xl text-black font-bold">Join Us Now</button>
+          <button className="bg-secondary py-2 px-6 rounded-2xl text-black font-bold ">
+            Join Us Now
+          </button>
         </div>
       </div>
       <div className="h-[35rem] w-[35rem]">

@@ -76,8 +76,8 @@ const Courses = () => {
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <div className="shadow-2xl h-[28rem] w-[20rem] rounded-2xl p-[1rem] flex flex-col">
+          <SwiperSlide className="shadow-2xl rounded-2xl">
+            <div className=" h-[28rem] w-[20rem]  p-[1rem] flex justify-between items-center flex-col">
               <div className="relative">
                 <img src={c1} alt="Courses" className="rounded-2xl" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -111,8 +111,8 @@ const Courses = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="shadow-2xl h-[28rem] w-[20rem] rounded-2xl p-[1rem] flex flex-col">
+          <SwiperSlide className="shadow-2xl rounded-2xl">
+            <div className=" h-[28rem] w-[20rem] p-[1rem] flex flex-col">
               <div className="relative">
                 <img src={c2} alt="Courses" className="rounded-2xl" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -146,8 +146,8 @@ const Courses = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="shadow-2xl h-[28rem] w-[20rem] rounded-2xl p-[1rem] flex flex-col">
+          <SwiperSlide className="shadow-2xl rounded-2xl">
+            <div className=" h-[28rem] w-[20rem]  p-[1rem] flex flex-col">
               <div className="relative">
                 <img src={c3} alt="Courses" className="rounded-2xl" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -181,8 +181,8 @@ const Courses = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="shadow-2xl h-[28rem] w-[20rem] rounded-2xl p-[1rem] flex flex-col">
+          <SwiperSlide className="shadow-2xl rounded-2xl">
+            <div className="h-[28rem] w-[20rem] p-[1rem] flex flex-col">
               <div className="relative">
                 <img src={c4} alt="Courses" className="rounded-2xl" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -215,8 +215,8 @@ const Courses = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="shadow-2xl h-[28rem] w-[20rem] rounded-2xl p-[1rem] flex flex-col">
+          <SwiperSlide className="shadow-2xl rounded-2xl">
+            <div className=" h-[28rem] w-[20rem] p-[1rem] flex flex-col">
               <div className="relative">
                 <img src={c1} alt="Courses" className="rounded-2xl" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">

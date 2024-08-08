@@ -3,7 +3,6 @@ import { LuUsers } from "react-icons/lu";
 import { IoVideocamOutline } from "react-icons/io5";
 import { PiUsersThree } from "react-icons/pi";
 
-import "../index.css";
 const Stats = () => {
   return (
     <div className="bg-slate-100 flex justify-around items-center text-black p-10">
