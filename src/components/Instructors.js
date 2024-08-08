@@ -36,7 +36,11 @@ const Instructors = () => {
             and
             <span className="inline-block relative font-bold">
               Accenture.
-              <img src={vector1} alt="border" className="absolute bottom-[-1px]" />
+              <img
+                src={vector1}
+                alt="border"
+                className="absolute bottom-[-1px]"
+              />
             </span>{" "}
             He has also solved over{" "}
             <span className="inline-block relative font-bold">

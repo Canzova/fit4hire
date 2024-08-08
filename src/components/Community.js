@@ -17,7 +17,7 @@ import { GrFormPreviousLink } from "react-icons/gr";
 import { GrFormNextLink } from "react-icons/gr";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { useState } from "react";
 
 const Community = () => {
@@ -57,6 +57,10 @@ const Community = () => {
           slidesPerView={3}
           spaceBetween={50}
           loop={false}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}
@@ -72,7 +76,7 @@ const Community = () => {
             setIsBeginning(swiper.isBeginning);
             setIsEnd(swiper.isEnd);
           }}
-          modules={[Pagination, Navigation]}
+          modules={[Autoplay,Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide className="">
