@@ -5,7 +5,8 @@ import Courses from "./components/Courses";
 import Instructors from "./components/Instructors";
 import Reviews from "./components/Reviews";
 import Community from "./components/Community";
-import Responsive from "./components/Responsive";
+// import Responsive from "./components/Responsive";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className=" font-public">
@@ -17,6 +18,7 @@ function App() {
       <Reviews/>
       <Community/>
      {/* <Responsive/> */}
+     <Footer/>
     </div>
   );
 }

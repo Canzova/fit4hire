@@ -58,7 +58,7 @@ const Community = () => {
           spaceBetween={50}
           loop={false}
           autoplay={{
-            delay: 2500,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -76,7 +76,7 @@ const Community = () => {
             setIsBeginning(swiper.isBeginning);
             setIsEnd(swiper.isEnd);
           }}
-          modules={[Autoplay,Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide className="">

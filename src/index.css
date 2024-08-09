@@ -58,9 +58,11 @@
     justify-content: center !important;
     align-items: center !important;
 }
+
 .slick-prev {
     left: -50px !important;
 }
+
 .slick-next {
     right: -50px !important;
 }
@@ -83,17 +85,11 @@
 
 .slick-next:before {
     content: '\f061' !important;
-    /* Unicode for Font Awesome user icon */
     font-family: 'Font Awesome 5 Free' !important;
-    /* Font Awesome font family */
     font-weight: 900 !important;
-    /* Font weight for the icon (900 is typically used for solid icons) */
     font-size: 1.5rem !important;
-    /* Size of the icon */
     color: #000 !important;
-    /* Color of the icon */
     display: inline-block !important;
-    /* Ensure the icon behaves as an inline block */
     opacity: 1 !important;
 }
 
@@ -105,15 +101,20 @@
 
 /* Style for all dots (inactive) */
 .slick-dots li button::before {
-    font-size: 9px !important; /* Adjust the size of the dot */
-    color: gray !important; /* Set the color of inactive dots */
-    opacity: 0.5 !important; /* Optional: make inactive dots slightly transparent */
+    font-size: 9px !important;
+    /* Adjust the size of the dot */
+    color: gray !important;
+    /* Set the color of inactive dots */
+    opacity: 0.5 !important;
+    /* Optional: make inactive dots slightly transparent */
 }
 
 /* Style for the active dot */
 .slick-dots li.slick-active button::before {
-    color: #FFA337 !important; /* Set the color of the active dot */
-    opacity: 1 !important; /* Ensure the active dot is fully opaque */
+    color: #FFA337 !important;
+    /* Set the color of the active dot */
+    opacity: 1 !important;
+    /* Ensure the active dot is fully opaque */
 }
 
 .slick-dots li {
@@ -121,12 +122,12 @@
 }
 
 
-.slick-disabled{
+.slick-disabled {
     cursor: not-allowed !important;
     opacity: .5;
 }
 
-.slick-slide{
+.slick-slide {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;

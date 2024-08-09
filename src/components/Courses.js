@@ -77,7 +77,7 @@ const Courses = () => {
                   <h1 className="text-slate-600 font-bold text-2xl mt-4 text-left">
                     Course Name
                   </h1>
-                  <div className="flex py-4 border-b-2 border-slate-300">
+                  <div className="flex py-4 pb-8 border-b-2 border-slate-300">
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
@@ -110,7 +110,7 @@ const Courses = () => {
                   <h1 className="text-slate-600 font-bold text-2xl mt-4 text-left">
                     Course Name
                   </h1>
-                  <div className="flex py-4 border-b-2 border-slate-300">
+                  <div className="flex py-4 pb-8 border-b-2 border-slate-300">
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
@@ -143,7 +143,7 @@ const Courses = () => {
                   <h1 className="text-slate-600 font-bold text-2xl mt-4 text-left">
                     Course Name
                   </h1>
-                  <div className="flex py-4 border-b-2 border-slate-300">
+                  <div className="flex py-4 pb-8 border-b-2 border-slate-300">
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
@@ -176,7 +176,7 @@ const Courses = () => {
                   <h1 className="text-slate-600 font-bold text-2xl mt-4 text-left">
                     Course Name
                   </h1>
-                  <div className="flex py-4 border-b-2 border-slate-300">
+                  <div className="flex py-4 pb-8 border-b-2 border-slate-300">
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
@@ -209,7 +209,7 @@ const Courses = () => {
                   <h1 className="text-slate-600 font-bold text-2xl mt-4 text-left">
                     Course Name
                   </h1>
-                  <div className="flex py-4 border-b-2 border-slate-300">
+                  <div className="flex py-4 pb-8 border-b-2 border-slate-300">
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
                     <IoStarSharp className=" text-secondary text-2xl" />
