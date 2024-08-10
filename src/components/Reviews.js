@@ -13,7 +13,6 @@ import quote from "../images/quote.png";
 const Reviews = () => {
   let settings = {
     dots: true,
-    infinite: true,
     speed: 400,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -21,9 +20,10 @@ const Reviews = () => {
     autoplay: true, // Enable autoplay
     autoplaySpeed: 2000, // Autoplay interval in milliseconds (2000ms = 2 seconds)
     pauseOnHover: true, // Pause autoplay when hovering over the slider
+    infinite: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1050,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -32,11 +32,20 @@ const Reviews = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -49,11 +58,11 @@ const Reviews = () => {
     ],
   };
   return (
-    <div className="py-10 px-[7rem] bg-[#F8F4FF]">
+    <div id="reviews" className="py-10 px-[7rem] bg-[#F8F4FF]">
       <h1 className="text-4xl font-bold">
-        Student <span className="text-primary">Feedback</span>
+        Student's <span className="text-primary">Feedback</span>
       </h1>
-      <span className="inline-block mt-5 text-slate-500">
+      <span className="inline-block mt-5 text-slate-500 md:text-xl">
         Various versions have evolved over the years, sometimes by accident,
       </span>
 
@@ -61,7 +70,7 @@ const Reviews = () => {
       <div className="">
         <div className="slider-container my-8">
           <Slider {...settings}>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -87,7 +96,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -113,7 +122,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -139,7 +148,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -165,7 +174,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -191,7 +200,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">

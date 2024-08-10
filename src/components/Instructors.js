@@ -6,24 +6,24 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Instructors = () => {
   return (
-    <div className="py-10 px-[7rem] bg-primary text-white">
+    <div id="instructors" className="py-10 px-[7rem] bg-primary text-white md:px-[5rem]">
       <h1 className="text-4xl font-bold ">
         Meet Our <span className="text-secondary">Instructor</span>
       </h1>
-      <span className="inline-block mt-5">
+      <span className="inline-block mt-5 md:text-xl">
         Various versions have evolved over the years, sometimes by accident,
       </span>
-      <div className="flex justify-between items-center mt-12">
-        <div className="w-[40%] h-[100%]">
+      <div className="flex justify-between items-center mt-12 md:flex-col md:gap-8">
+        <div className="w-[40%] h-[100%] md:w-[80%]">
           <img
             src={nihal}
             alt="Instructor"
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="w-[50%]">
-          <h1 className="text-4xl font-bold ">Nihal Singh</h1>
-          <p className="text-secondary text-[1.5rem] pb-4 font-bold">
+        <div className="w-[50%] md:w-[100%]">
+          <h1 className="text-4xl font-bold md:text-center ">Nihal Singh</h1>
+          <p className="text-secondary text-[1.5rem] pb-4 font-bold md:text-center">
             System Engineer at TCS
           </p>
           <h1 className="text-[1.5rem]">
@@ -49,9 +49,9 @@ const Instructors = () => {
             </span>{" "}
             Data Structures and Algorithms problems.
           </h1>
-          <div className="flex justify-start items-center gap-8 mt-8">
+          <div className="flex justify-start items-center gap-8 mt-8 md:justify-center">
             <div>
-              <div className="bg-[#FFC27A] h-[3rem] w-[3rem] clipPath flex justify-center items-center cursor-pointer hover:bg-secondary">
+              <div className="bg-[#FFC27A] h-[3rem] w-[3rem] clipPath flex justify-center items-center cursor-pointer hover:bg-secondary md:w-[5rem] md:h-[5rem]">
                 <a href="https://codolio.com/profile/Canzova" target="_blank">
                   <FaCode className="text-black text-2xl" />
                 </a>
@@ -59,7 +59,7 @@ const Instructors = () => {
               <h1>Codolio</h1>
             </div>
             <div>
-              <div className="bg-[#FFC27A] h-[3rem] w-[3rem] clipPath flex justify-center items-center cursor-pointer hover:bg-secondary">
+              <div className="bg-[#FFC27A] h-[3rem] w-[3rem] clipPath flex justify-center items-center cursor-pointer hover:bg-secondary md:w-[5rem] md:h-[5rem]">
                 <a
                   href="https://www.linkedin.com/in/nihalsingh2002/"
                   target="_blank"

@@ -4,10 +4,15 @@ import vector1 from "../images/Vector 1.png";
 const Home = () => {
   // className="border-b-4 border-secondary"
   return (
-    <div className="flex justify-around items-center bg-primary text-white">
-      <div className="w-[40rem] pl-[5rem]">
-        <p className="text-secondary text-[1.5rem] pb-2">START TO SUCCESS</p>
-        <h1 className="text-[2.5rem]">
+    <div
+      id="home"
+      className="flex justify-around items-center bg-primary text-white"
+    >
+      <div className="w-[40rem] pl-[5rem] md:pl-[3rem] md:w-[50%]">
+        <p className="text-secondary text-[1.5rem] pb-2 md:text-[1rem]">
+          START TO SUCCESS
+        </p>
+        <h1 className="text-[2.5rem] md:text-[2rem] md:pb-2">
           Access To{" "}
           <span className="inline-block relative">
             5000+
@@ -20,16 +25,18 @@ const Home = () => {
           </span>{" "}
           Instructors & Institutions
         </h1>
-        <span className="text-slate-300">
+        <span className="text-slate-300 md:text-xl">
           Various versions have evolved over the years, sometimes by accident,
         </span>
         <div className="pt-2">
-          <button className="bg-secondary py-2 px-6 rounded-2xl text-black font-bold ">
-            Join Us Now
-          </button>
+          <a href="#community">
+            <button className="bg-secondary py-2 px-6 rounded-2xl text-black font-bold ">
+              Join Us Now
+            </button>
+          </a>
         </div>
       </div>
-      <div className="h-[35rem] w-[35rem]">
+      <div className="h-[35rem] w-[35rem] md:w-[50%]">
         <img
           src={hero}
           alt="Hero"

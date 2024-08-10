@@ -24,11 +24,11 @@ const Community = () => {
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
   return (
-    <div className="pt-10 px-[7rem] bg-[#fff]">
+    <div id="community" className="pt-10 px-[7rem] bg-[#fff] md:px-[5rem]">
       <h1 className="text-4xl font-bold">
         Our <span className="text-primary">Community</span>
       </h1>
-      <span className="inline-block mt-5 text-slate-500">
+      <span className="inline-block mt-5 text-slate-500 md:text-xl">
         Join our community to access exclusive resources, stay updated with the
         latest job opportunities, and connect with like-minded peers.
       </span>
@@ -75,6 +75,18 @@ const Community = () => {
           onSwiper={(swiper) => {
             setIsBeginning(swiper.isBeginning);
             setIsEnd(swiper.isEnd);
+          }}
+          breakpoints={{
+            // Define breakpoints for different screen sizes
+            0: {
+              slidesPerView: 1, // Show 1 card per view on smaller screens
+            },
+            600: {
+              slidesPerView: 2, // Show 2 cards per view on medium-sized screens
+            },
+            1278: {
+              slidesPerView: 3, // Show 3 cards per view on larger screens
+            },
           }}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"

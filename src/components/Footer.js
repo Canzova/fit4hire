@@ -6,9 +6,9 @@ import linkedin from "../images/linkedin.png";
 
 const Footer = () => {
   return (
-    <div className="py-10 px-[7rem] bg-[#21212F] text-white">
+    <div className="py-10 px-[7rem] bg-[#21212F] text-white md:px-[5rem]">
       <div className=" flex justify-between items-start my-2">
-        <div className="h-[8rem] w-[8rem]">
+        <div className="h-[8rem] w-[8rem] md:h-[5rem] md:w-[5rem]">
           <img
             src={logo}
             alt="Logo"
@@ -46,28 +46,28 @@ const Footer = () => {
               <img
                 src={wp}
                 alt="Socials"
-                className="h-[3rem] w-[3rem] object-cover mr-[1rem]"
+                className="h-[3rem] w-[3rem] object-cover mr-[1rem] md:h-[2rem] md:w-[2rem]"
               />
             </a>
             <a href="">
               <img
                 src={tg}
                 alt="Socials"
-                className="h-[3rem] w-[3rem] object-cover mr-[1rem]"
+                className="h-[3rem] w-[3rem] object-cover mr-[1rem] md:h-[2rem] md:w-[2rem]"
               />
             </a>
             <a href="">
               <img
                 src={yt2}
                 alt="Socials"
-                className="h-[3rem] w-[3rem] object-cover mr-[1rem]"
+                className="h-[3rem] w-[3rem] object-cover mr-[1rem] md:h-[2rem] md:w-[2rem]"
               />
             </a>
             <a href="">
               <img
                 src={linkedin}
                 alt="Socials"
-                className="h-[3rem] w-[3rem] object-cover"
+                className="h-[3rem] w-[3rem] object-cover md:h-[2rem] md:w-[2rem]"
               />
             </a>
           </div>

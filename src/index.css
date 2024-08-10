@@ -132,3 +132,13 @@
     justify-content: center !important;
     align-items: center !important;
 }
+
+/* Media screen for slick slider */
+/* @media screen and (max-width : 768px) {
+
+ 
+    .slider-container .slick-slide>div {
+        margin: 1rem 2rem !important;
+        
+    }
+} */
