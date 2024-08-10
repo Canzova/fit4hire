@@ -58,8 +58,11 @@ const Reviews = () => {
     ],
   };
   return (
-    <div id="reviews" className="py-10 px-[7rem] bg-[#F8F4FF]">
-      <h1 className="text-4xl font-bold">
+    <div
+      id="reviews"
+      className="py-10 px-[7rem] bg-[#F8F4FF] md:px-[5rem] sm:px-[1rem]"
+    >
+      <h1 className="text-4xl font-bold sm:text-3xl">
         Student's <span className="text-primary">Feedback</span>
       </h1>
       <span className="inline-block mt-5 text-slate-500 md:text-xl">
@@ -70,7 +73,7 @@ const Reviews = () => {
       <div className="">
         <div className="slider-container my-8">
           <Slider {...settings}>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -96,7 +99,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -122,7 +125,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -148,7 +151,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -174,7 +177,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">
@@ -200,7 +203,7 @@ const Reviews = () => {
                 feugiat auctor felis.
               </div>
             </div>
-            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem]">
+            <div className="h-[20rem] w-[28rem] my-8 p-4 rounded-3xl shadow-xl md:h-[18rem] sm:h-[26rem] sm:!w-[16rem]">
               <div className="flex justify-between items-start mb-8">
                 <div className="flex justify-between items-center gap-4">
                   <div className="h-[4rem] w-[4rem]">

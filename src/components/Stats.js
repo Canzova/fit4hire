@@ -5,7 +5,7 @@ import { PiUsersThree } from "react-icons/pi";
 
 const Stats = () => {
   return (
-    <div className="bg-slate-100 flex justify-around items-center text-black p-10 md:p-8">
+    <div className="bg-slate-100 flex justify-around items-center text-black p-10 md:p-8 sm:px-[0] sm:grid sm:grid-cols-2 sm:gap-4">
       <div className="flex justify-between items-center h-[5rem] w-[12rem] md:h-[4rem] md:w-[10rem]">
         <div className="bg-[#20B486] h-[100%] w-[50%] clipPath flex justify-center items-center">
           <PiGraduationCapLight className="text-4xl text-white md:text-3xl" />

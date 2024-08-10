@@ -24,8 +24,11 @@ const Community = () => {
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
   return (
-    <div id="community" className="pt-10 px-[7rem] bg-[#fff] md:px-[5rem]">
-      <h1 className="text-4xl font-bold">
+    <div
+      id="community"
+      className="pt-10 px-[7rem] bg-[#fff] md:px-[5rem] sm:px-[1rem]"
+    >
+      <h1 className="text-4xl font-bold sm:text-3xl">
         Our <span className="text-primary">Community</span>
       </h1>
       <span className="inline-block mt-5 text-slate-500 md:text-xl">
@@ -39,7 +42,7 @@ const Community = () => {
           id="prevBtn"
           className={`absolute top-1/2 left-[-4rem] bg-secondary  transform -translate-y-1/2 rounded-3xl text-2xl p-2 ${
             isBeginning ? "cursor-not-allowed opacity-50" : "cursor-pointer"
-          }`}
+          } sm:left-[-.8rem] sm:z-10 `}
           disabled={isBeginning}
         >
           <GrFormPreviousLink />
@@ -48,7 +51,7 @@ const Community = () => {
           id="nextBtn"
           className={`absolute top-1/2 right-[-3rem]  bg-secondary  transform -translate-y-1/2 rounded-3xl text-2xl p-2 ${
             isEnd ? "cursor-not-allowed opacity-50" : "cursor-pointer"
-          }`}
+          } sm:right-[-.8rem]  sm:z-10`}
           disabled={isEnd}
         >
           <GrFormNextLink />
@@ -92,7 +95,7 @@ const Community = () => {
           className="mySwiper"
         >
           <SwiperSlide className="">
-            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl  hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out">
+            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl  hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out sm:w-[16rem]">
               <div className="h-[5rem] w-[5rem] mb-4">
                 <img
                   src={notes}
@@ -105,7 +108,7 @@ const Community = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out">
+            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out sm:w-[16rem]">
               <div className="h-[5rem] w-[5rem] mb-4">
                 <img
                   src={cheatsheets}
@@ -118,7 +121,7 @@ const Community = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out">
+            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out sm:w-[16rem]">
               <div className="h-[5rem] w-[5rem] mb-4">
                 <img
                   src={roadmaps}
@@ -131,7 +134,7 @@ const Community = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out">
+            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out sm:w-[16rem]">
               <div className="h-[5rem] w-[5rem] mb-4">
                 <img
                   src={jobs}
@@ -144,7 +147,7 @@ const Community = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out">
+            <div className="h-[20rem] w-[18rem] flex flex-col justify-center items-center px-4 gap-4 bg-primary text-white rounded-3xl shadow-xl hover:bg-secondary hover:text-black transition-colors duration-300 ease-in-out sm:w-[16rem]">
               <div className="h-[5rem] w-[5rem] mb-4">
                 <img
                   src={resume}

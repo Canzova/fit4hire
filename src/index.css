@@ -134,11 +134,11 @@
 }
 
 /* Media screen for slick slider */
-/* @media screen and (max-width : 768px) {
-
- 
-    .slider-container .slick-slide>div {
-        margin: 1rem 2rem !important;
-        
+@media screen and (max-width : 639px) {
+    .slick-prev {
+        left: -13px !important;
     }
-} */
+    .slick-next {
+        right: -13px !important;
+    }
+}

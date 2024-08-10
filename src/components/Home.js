@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="flex justify-around items-center bg-primary text-white"
+      className="flex justify-around items-center bg-primary text-white sm:flex-col sm:pt-[2rem]"
     >
-      <div className="w-[40rem] pl-[5rem] md:pl-[3rem] md:w-[50%]">
+      <div className="w-[40rem] pl-[5rem] md:pl-[3rem] md:w-[50%] sm:w-[100%] px-[2rem]">
         <p className="text-secondary text-[1.5rem] pb-2 md:text-[1rem]">
           START TO SUCCESS
         </p>
@@ -36,7 +36,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="h-[35rem] w-[35rem] md:w-[50%]">
+      <div className="h-[35rem] w-[35rem] md:w-[50%] md:h-[30rem] sm:w-[100%] sm:h-[100%] sm:pb-8 sm:mt-[2rem]">
         <img
           src={hero}
           alt="Hero"

@@ -61,8 +61,8 @@ const Courses = () => {
   };
 
   return (
-    <div id="courses" className="pt-10 px-[7rem] md:px-[5rem]">
-      <h1 className="text-4xl font-bold">
+    <div id="courses" className="pt-10 px-[7rem] md:px-[5rem] sm:px-[1rem]">
+      <h1 className="text-4xl font-bold sm:text-3xl">
         Most <span className="text-primary">Popular Courses</span>
       </h1>
       <span className="inline-block mt-5 text-slate-500 md:text-xl">
@@ -73,7 +73,7 @@ const Courses = () => {
       <div className="relative mt-12 mb-20">
         <div className="slider-container">
           <Slider {...settings}>
-            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl">
+            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl sm:!w-[16rem] sm:h-[25rem]">
               <div className="relative">
                 <img src={c2} alt="Courses" className="rounded-2xl w-full" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -106,7 +106,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl">
+            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl sm:!w-[16rem] sm:h-[25rem]">
               <div className="relative">
                 <img src={c1} alt="Courses" className="rounded-2xl w-full" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -139,7 +139,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl">
+            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl sm:!w-[16rem] sm:h-[25rem]">
               <div className="relative">
                 <img src={c3} alt="Courses" className="rounded-2xl w-full" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -172,7 +172,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl">
+            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl sm:!w-[16rem] sm:h-[25rem]">
               <div className="relative">
                 <img src={c4} alt="Courses" className="rounded-2xl w-full" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">
@@ -205,7 +205,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl">
+            <div className="mb-8 h-[28rem] !w-[20rem] p-[1rem] flex flex-col shadow-xl rounded-2xl md:!w-[18rem] md:shadow-2xl sm:!w-[16rem] sm:h-[25rem]">
               <div className="relative">
                 <img src={c1} alt="Courses" className="rounded-2xl w-full" />
                 <div className="absolute top-[1rem] left-[1rem] bg-slate-300 p-2 px-4 rounded-lg ">

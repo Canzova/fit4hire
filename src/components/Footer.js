@@ -6,8 +6,8 @@ import linkedin from "../images/linkedin.png";
 
 const Footer = () => {
   return (
-    <div className="py-10 px-[7rem] bg-[#21212F] text-white md:px-[5rem]">
-      <div className=" flex justify-between items-start my-2">
+    <div className="py-10 px-[7rem] bg-[#21212F] text-white md:px-[5rem] ">
+      <div className=" flex justify-between items-start my-2 sm:flex-col sm:items-center">
         <div className="h-[8rem] w-[8rem] md:h-[5rem] md:w-[5rem]">
           <img
             src={logo}
@@ -15,7 +15,7 @@ const Footer = () => {
             className="h-[100%] w-[100%] object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-start gap-4">
+        <div className="flex flex-col justify-center items-start gap-4 sm:items-center sm:mt-4">
           <h1 className="border-b-2 border-secondary">Explore</h1>
 
           <a href="#" className=" hover:text-secondary">
@@ -34,12 +34,12 @@ const Footer = () => {
             Reviews
           </a>
         </div>
-        <div className="flex flex-col justify-center items-start gap-4">
+        <div className="flex flex-col justify-center items-start gap-4 sm:items-center sm:mt-4">
           <h1 className="border-b-2 border-secondary">Get In Touch</h1>
           <h2>+91 1234567890</h2>
           <h2>abc@gmail.com</h2>
         </div>
-        <div className="flex flex-col justify-center items-start gap-4">
+        <div className="flex flex-col justify-center items-start gap-4 sm:items-center sm:mt-4">
           <h1 className="border-b-2 border-secondary">Follow Us On </h1>
           <div className="flex justify-between items-start">
             <a href="">
@@ -74,7 +74,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <h1 className="flex justify-center items-center text-slate-300 mt-8">Copyright &#169; 2024 All Rights Reserved.</h1>
+      <h1 className="flex justify-center items-center text-slate-300 mt-8 sm:text-center">
+        Copyright &#169; 2024 All Rights Reserved.
+      </h1>
     </div>
   );
 };

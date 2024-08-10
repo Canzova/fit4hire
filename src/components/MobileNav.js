@@ -8,7 +8,7 @@ const MobileNav = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="relative hidden sm:block bg-primary">
-      <div className="pb-8 px-[2rem] py-[1rem]">
+      <div className=" px-[2rem] pt-[1rem]">
         <div className="flex justify-between items-center">
           <div className="h-[5rem] w-[5rem]">
             <img src={logo} alt="Logo" />
